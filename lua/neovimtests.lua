@@ -6,6 +6,8 @@ local function setup()
     command("Greet", function() print("Hello, world!") end, {nargs = 0})
 end
 
+setup()
+
 return {
     setup = setup
 }
